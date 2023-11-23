@@ -1,0 +1,89 @@
+:root {
+  --cream: #0a0909;
+  --bg: #0a0a0a00;
+  --shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: 'Tenor Sans', sans-serif;
+  min-height: 2000px;
+}
+
+.hero h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 4rem;
+  color: #fcfcf6;
+}
+
+.hero h4 {
+  font-family: 'Tenor Sans', sans-serif;
+  color: white;
+}
+
+.hero {
+  background-image: url(img/hero\ bg.png);
+  min-height: 120vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero a {
+  color: var(--cream);
+  background-color: white;
+  box-shadow: var(--shadow);
+}
+
+.hero a:hover {
+  background-color: #f7f7f4;
+  color: #130801;
+}
+
+.halaman {
+  background-color: #faf8f8;
+  min-height: 120vh;
+  background-position: center;
+  background-size: cover;
+  margin-top: -4rem;
+  padding-top: 6rem;
+}
+
+.penutup {
+  background-color: #f9f7f5;
+  min-height: 120vh;
+  background-position: center;
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 10rem;
+}
+
+.halaman a {
+  background-color: black;
+  color: white;
+}
+
+.halaman a:hover {
+  background-color: black;
+}
+
+/* Media Query */
+/* laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* mobile phone */
+@media (max-width: 576px) {
+  html {
+    font-size: 70%;
+  }
+}
